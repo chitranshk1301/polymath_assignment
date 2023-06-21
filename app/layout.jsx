@@ -1,4 +1,4 @@
-import "@styles/globals.css";
+import "../styles/globals.css";
 
 
 export const metadata = {
@@ -14,7 +14,7 @@ const RootLayout = ({ children }) => (
           <div className='gradient' />
         </div>
 
-        <main className='app'>
+        <main>
           {children}
         </main>
       {/* </Provider> */}
