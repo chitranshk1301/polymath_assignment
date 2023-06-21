@@ -2,21 +2,20 @@ import "../styles/globals.css";
 
 
 export const metadata = {
-  title: "MyAnimeList",
-  description: "Never forget your favorite anime again!",
+  title: "MyBookList",
+  description: "Never forget your favorite book again!",
 };
 
 const RootLayout = ({ children }) => (
   <html lang='en'>
     <body>
       {/* <Provider> */}
-        <div className='main'>
-          <div className='gradient' />
-        </div>
 
-        <main>
+      <main className='main'>
+        <div>
           {children}
-        </main>
+        </div>
+      </main>
       {/* </Provider> */}
     </body>
   </html>
