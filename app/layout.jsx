@@ -1,22 +1,21 @@
 import "../styles/globals.css";
-
+import Login from "../components/Login";
 
 export const metadata = {
-  title: "MyBookList",
-  description: "Never forget your favorite book again!",
+  title: "Wizardry",
+  description: "A wizarding world",
 };
+
 
 const RootLayout = ({ children }) => (
   <html lang='en'>
     <body>
-      {/* <Provider> */}
-
+    <Login />
       <main className='main'>
         <div>
           {children}
         </div>
       </main>
-      {/* </Provider> */}
     </body>
   </html>
 );
